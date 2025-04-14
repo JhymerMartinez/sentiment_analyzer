@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pyenv
+.python-version
+
+# VSCode settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+*.cover
+coverage.xml
+
+# Logs and local config
+*.log
+*.env
+.env.*
+!.env.example
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# Render build artifacts
+render.yaml
+runtime.txt
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Ignore SQLite/DB files (optional, if you generate local DBs)
+*.sqlite3
+*.db
+
+# Pip requirements lock files (if not used explicitly)
+poetry.lock
+Pipfile.lock
