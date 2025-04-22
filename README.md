@@ -29,8 +29,8 @@ pyenv local 3.10.13
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/sentiment-analyzer.git
-   cd sentiment-analyzer
+   git clone https://github.com/JhymerMartinez/sentiment_analyzer.git
+   cd sentiment_analyzer
    ```
 
 2. **Set up a virtual environment** (optional but recommended):
