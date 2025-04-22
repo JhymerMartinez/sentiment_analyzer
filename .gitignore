@@ -14,15 +14,13 @@ venv.bak/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# Pyenv
-.python-version
-
 # VSCode settings
 .vscode/
 
 # System files
 .DS_Store
 Thumbs.db
+*.swp
 
 # Test outputs
 .coverage
@@ -59,3 +57,9 @@ dist/
 # Pip requirements lock files (if not used explicitly)
 poetry.lock
 Pipfile.lock
+
+# Ignore model and binary artifacts
+*.pkl
+*.joblib
+*.h5
+*.onnx
